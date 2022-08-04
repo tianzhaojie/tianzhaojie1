@@ -1,3 +1,4 @@
+function getUserInfo() {
 const getUserInfo = () => {
     $.ajax({
         type: "GET",
@@ -50,3 +51,4 @@ $("#exitBtn").click(() => {
         }
     );
 });
+}
